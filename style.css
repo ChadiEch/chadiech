@@ -478,13 +478,15 @@ box-shadow: none;
      padding-top: 5px;
      width: 50px;
      height: 45px; 
+     margin: 0;
+     
     }
     .card p{
      width: 50px;
      height: 45px; 
      padding: 0;
-     margin-top: 0;
-     margin-left:11px;
+     margin: 0;
+     padding: 0;
     }
     .technologies .container .card:hover{
         width: 75px;
@@ -517,7 +519,8 @@ box-shadow: none;
       .card2 p{
        width: 50px;
        height: 45px; 
-       margin-left:11px;
+       margin: 0;
+       padding: 0;
       }
       .projects{
         height: 50vh;
