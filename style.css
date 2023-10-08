@@ -482,6 +482,7 @@ box-shadow: none;
     .card p{
      width: 50px;
      height: 45px; 
+     padding: 0;
      margin-left:11px;
     }
     .technologies .container .card:hover{
