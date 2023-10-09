@@ -6,9 +6,6 @@ body{
     background-color: #031540;
 }
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 85%;
     padding: 10px 10%;
     background:transparent;
@@ -45,7 +42,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 .home-image{
@@ -180,7 +177,7 @@ box-shadow: none;
 }
 .technologies{
     height: auto;
-    display: flex;
+   
     background-color: #031540;
 
 }
@@ -248,31 +245,11 @@ box-shadow: none;
     width: 100px;
     height: 90px; 
    }
-   .technologies .container .card2:hover{
-    width: 160px;
-    height: 160px;
-    background-color: #031540;
-    color: #fff;
-    border-radius: 20px;
-    transition: .3s;
-   }
-   .technologies .container .card2{
-    width: 150px;
-    height: 120px;
-    background-color: #031540;
-    color: #fff;
-    border-radius: 20px;
-  }
-  .card2 img{
-   padding-top: 10px;
-   width: 100px;
-   height: 90px; 
-  }
-  .card2 p{
-   width: 100px;
-   height: 90px; 
-   margin-left:22px;
-  }
+ a{
+    color: #031540;
+    text-decoration: none;
+ }
+
   footer{
     background-color: #031540;
   }
@@ -321,6 +298,10 @@ box-shadow: none;
     .navbar a {
         font-size: 16px;
         margin-left: 20px;
+    }
+    .home{
+        background: none;
+        background-color: #031540;
     }
 
     .home-content h1 {
@@ -600,35 +581,6 @@ box-shadow: none;
         width: 50px;
         height: 45px; 
        }
-       .technologies .container .card2:hover{
-        width: 75px;
-        height: 75px;
-        background-color: #031540;
-        color: #fff;
-        border-radius: 20px;
-        transition: .3s;
-       }
-       .technologies .container .card2{
-        width: 75px;
-        height: 75px;
-        background-color: #031540;
-        color: #fff;
-        border-radius: 20px;
-      }
-      .card2 img{
-       padding-top: 10px;
-       width: 50px;
-       height: 45px; 
-      }
-      .card2 p{
-       width: 50px;
-       height: 45px; 
-       margin: 0;
-       padding: 0;
-       font-size: 10px;
-      }
-
-
       .contact h3{
         font-size:18px ;
       }
