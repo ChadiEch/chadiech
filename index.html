@@ -1,137 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chadi Ech</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chadi Ech — Shopify & Full-Stack Developer</title>
+  <meta name="description" content="AI-savvy Shopify & Web Developer focused on CRO funnels, speed optimization, and clean scalable code.">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chadi Ech — Shopify & Full-Stack Developer">
+  <meta property="og:description" content="CRO-driven Shopify development, Liquid, React, Tailwind, A/B testing, and speed optimization.">
+  <meta property="og:image" content="portfolio.png">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0ea5e9">
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">C. Ech</a>
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#technologies">Technologies</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <!-- Header -->
+  <header class="header" role="banner">
+    <a href="#home" class="logo" aria-label="Go to home">C. Ech</a>
+    <nav class="navbar" role="navigation" aria-label="Primary">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section class="home" id="home">
-        <div class="home-image">
-            <img src="pf.png" alt="">
-        </div>
-        <div class="home-content">
-            <h1>Hi, I'm Chadi Ech</h1>
-            <h3>Full Stack Web Developer</h3>
-            <p>Get your business to a higher level.</p>
-       
-        <div class="home-sci">
-            <a href="https://www.facebook.com/chadi.ech.3"><i class='bx bxl-facebook'></i></a>
-            <a href="https://www.instagram.com/chadi_ech/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://www.linkedin.com/in/chadi-ech-3080a420b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://github.com/ChadiEch"><i class='bx bxl-github'></i></a>
-        </div>
-        <a href="cv.pdf" class="btn" download>Download CV</a>
+  <!-- Hero -->
+  <section class="home" id="home">
+    <div class="home-image">
+      <img src="pf.png" alt="Portrait of Chadi Ech">
     </div>
-    </section>
-    <section class="about" id="about">    
-      <div class="about-content" >
-        <br>
-        <br>
+    <div class="home-content">
+      <h1>Hi, I'm Chadi Ech</h1>
+      <h3>Shopify & Full-Stack Web Developer</h3>
+      <p>AI-powered workflows, CRO-driven funnels, and fast, scalable code to lift your conversions.</p>
 
-        <h3>About</h3>
-    <p>I'm an enthusiastic second-year student at CNAM University, eager to secure a fulfilling full-time
-        position while pursuing my studies. My foundation in web development equips me with the
-        skills to contribute effectively. Through collaborative projects, I've honed my leadership and
-        communication skills. I embrace new programming languages with a quick learning curve to
-        align with company needs. Dedicated to delivering quality results, I'm committed to excelling in
-        both academic and professional endeavors.</p>
-  </div>
-    </section>
-    <section class="technologies" id="technologies">    
-      <div class="technologies-content" >
-        <h3>Technologies</h3>
-        <div class="container">
-            <div class="card">
-                <img src="logos/html.png" alt="">
-                <p >HTML</p>
-            </div>
-            <div class="card">
-                <img src="logos/css.png" alt="">
-                <p>CSS</p>
-            </div>
-            <div class="card">
-                <img src="logos/javascript.png" alt="">
-                <p>JAVASCRIPT</p>
-            </div>
-            <div class="card">
-                <img src="logos/django.png" alt="">
-                <p>DJANGO</p>
-            </div>
-            
-            <div class="card" >
-                <img src="logos/php.png" alt="">
-                <p >PHP</p>
-            </div>
-            <div class="card">
-                <img src="logos/mysql.png" alt="">
-                <p>MYSQL</p>
-            </div>
-            <div class="card">
-                <img src="logos/git.png" alt="">
-                <p>GIT</p>
-            </div>
-            <div class="card">
-                <img src="logos/github.png" alt="">
-                <p>GITHUB</p>
-            </div>
+      <div class="home-sci" aria-label="Social links">
+        <a href="https://www.facebook.com/chadi.ech.3" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+        <a href="https://www.instagram.com/chadi_ech/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+        <a href="https://www.linkedin.com/in/chadi-ech-3080a420b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/ChadiEch" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+      </div>
+
+      <div class="cta-row">
+        <a href="#contact" class="btn">Start a project</a>
+        <a href="cv.pdf" class="btn btn-outline" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-content">
+      <h3>About</h3>
+      <p>
+        I'm an AI-savvy Shopify developer and full-stack engineer focused on building high-converting eCommerce stores
+        and clean, scalable web platforms. I use tools like Cursor and GitHub Copilot to ship faster while keeping code
+        modular and maintainable. I collaborate with marketing teams to run A/B tests, improve user flows, and optimize
+        speed and Core Web Vitals across devices.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="technologies" id="skills">
+    <div class="technologies-content">
+      <h3>Skills</h3>
+      <div class="container skills-grid">
+        <!-- Shopify & Web -->
+        <div class="card"><img src="logos/shopify.png" alt=""><p>Shopify</p></div>
+        <div class="card"><img src="logos/liquid.png" alt=""><p>Liquid</p></div>
+        <div class="card"><img src="logos/html.png" alt=""><p>HTML5</p></div>
+        <div class="card"><img src="logos/css.png" alt=""><p>CSS3</p></div>
+        <div class="card"><img src="logos/javascript.png" alt=""><p>JavaScript</p></div>
+        <div class="card"><img src="logos/react.png" alt=""><p>React</p></div>
+        <div class="card"><img src="logos/tailwind.png" alt=""><p>Tailwind CSS</p></div>
+        <div class="card"><img src="logos/jquery.png" alt=""><p>jQuery</p></div>
+        <!-- Backend & DB -->
+        <div class="card"><img src="logos/nestjs.png" alt=""><p>NestJS</p></div>
+        <div class="card"><img src="logos/express.png" alt=""><p>Express</p></div>
+        <div class="card"><img src="logos/django.png" alt=""><p>Django</p></div>
+        <div class="card"><img src="logos/php.png" alt=""><p>PHP</p></div>
+        <div class="card"><img src="logos/mongodb.png" alt=""><p>MongoDB</p></div>
+        <div class="card"><img src="logos/mysql.png" alt=""><p>MySQL</p></div>
+        <div class="card"><img src="logos/prisma.png" alt=""><p>Prisma</p></div>
+        <!-- Optimization & Tools -->
+        <div class="card"><img src="logos/ab.png" alt=""><p>A/B Testing</p></div>
+        <div class="card"><img src="logos/speed.png" alt=""><p>Speed Optimization</p></div>
+        <div class="card"><img src="logos/git.png" alt=""><p>Git</p></div>
+        <div class="card"><img src="logos/github.png" alt=""><p>GitHub</p></div>
+        <div class="card"><img src="logos/figma.png" alt=""><p>Figma</p></div>
+        <div class="card"><img src="logos/docker.png" alt=""><p>Docker</p></div>
+        <div class="card"><img src="logos/copilot.png" alt=""><p>Copilot</p></div>
+        <div class="card"><img src="logos/cursor.png" alt=""><p>Cursor</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="technologies-content">
+      <h3>Services</h3>
+      <div class="container services-grid">
+        <div class="card service">
+          <i class='bx bx-store-alt'></i>
+          <h4>Shopify Store Setup & Themes</h4>
+          <p>Custom Liquid sections, theme tweaks, app integrations, and mobile-first layouts.</p>
         </div>
-  </div>
-    </section>
-    <section class="technologies" id="projects">    
-        <div class="technologies-content" >
-          <h3>Projects</h3>
-          <div class="container">
-            <a href="https://github.com/ChadiEch/bi3ni">
-              <div class="card">
-                  <img src="logos/html.png" alt="">
-                  <p >Bi3ni marketplace</p>  
-              </div>
-            </a>
-              <a href="">
-              <div class="card">
-                  <img src="logos/css.png" alt="">
-                  <p>Clinic Management</p>
-              </div>
-            </a>
-              <a href="#home">
-              <div class="card">
-                  <img src="portfolio.png" alt="">
-                  <p>Portfolio</p>
-              </div>
-            </a>
-            <a href="https://github.com/ahmad-hawchar/coursero-project">
-              <div class="card">
-                  <img src="logos/django.png" alt="">
-                  <p>Coursero</p>
-              </div>
-            </a>
-              
+        <div class="card service">
+          <i class='bx bx-line-chart'></i>
+          <h4>CRO Funnels & A/B Testing</h4>
+          <p>Cold-traffic funnels, upsell/downsells, CTA testing, and conversion-oriented UX.</p>
+        </div>
+        <div class="card service">
+          <i class='bx bx-rocket'></i>
+          <h4>Speed & Core Web Vitals</h4>
+          <p>Performance audits, code refactors, and sub-3s mobile load targets.</p>
+        </div>
+        <div class="card service">
+          <i class='bx bx-code-alt'></i>
+          <h4>Custom Platforms</h4>
+          <p>Full-stack apps (NestJS/React) for internal tools, dashboards, and integrations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="technologies" id="projects">
+    <div class="technologies-content">
+      <h3>Projects</h3>
+
+      <h4>Shopify Stores</h4>
+      <div class="container">
+        <a href="https://unlisted-lb.com/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/shopify.png" alt="">
+            <p>Unlisted LB — Custom theme + CRO</p>
           </div>
-    </div>
-      </section>
-      <footer class="contact" id="contact">
-        <h3>Contact</h3>
-        <ul>
-            <li><a href="mailto:chadiech.word@gmail.com"><i class='bx bx-envelope' ></i> Send an email</a></li>
-            <li><a href="https://wa.me/+96181445964"><i class='bx bxl-whatsapp'></i> Whatsapp </a></li>
-            <li><i class='bx bx-phone'></i> +961 81 445 964</li>
-        </ul>
+        </a>
+        <a href="https://daringeyes.com/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/shopify.png" alt="">
+            <p>Daring Eyes — High-performance store</p>
+          </div>
+        </a>
+        <a href="https://www.organsky.com/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/shopify.png" alt="">
+            <p>Organsky — Speed & SEO</p>
+          </div>
+        </a>
+        <a href="https://winnerforce-lb.com/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/shopify.png" alt="">
+            <p>Winnerforce — Continuous CRO</p>
+          </div>
+        </a>
+        <a href="https://columbus-lb.com/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/shopify.png" alt="">
+            <p>Columbus — Ongoing customization</p>
+          </div>
+        </a>
+      </div>
 
-      </footer>
-   
+      <h4>Custom Web Platforms</h4>
+      <div class="container">
+        <a href="https://ambassador-dashboard-production.up.railway.app/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/react.png" alt="">
+            <p>Ambassador Management Platform (NestJS/React/Postgres)</p>
+          </div>
+        </a>
+        <a href="https://tasket-production.up.railway.app/" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/react.png" alt="">
+            <p>Task Management Platform (MERN)</p>
+          </div>
+        </a>
+      </div>
+
+      <h4>Personal & Team Projects</h4>
+      <div class="container">
+        <a href="https://github.com/ChadiEch/bi3ni" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/django.png" alt="">
+            <p>Bi3ni — Django + Tailwind</p>
+          </div>
+        </a>
+        <a href="https://github.com/ahmad-hawchar/coursero-project" target="_blank" rel="noopener">
+          <div class="card">
+            <img src="logos/php.png" alt="">
+            <p>Coursero — PHP/MySQL</p>
+          </div>
+        </a>
+        <a href="#home">
+          <div class="card">
+            <img src="portfolio.png" alt="">
+            <p>Portfolio</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience" id="experience">
+    <div class="technologies-content">
+      <h3>Experience</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="time">01/2025 – Present</span>
+          <h4>Project Manager & Developer — Winnerforce (Tripoli, LB)</h4>
+          <ul>
+            <li>Develop and optimize Shopify store layouts and CRO funnels.</li>
+            <li>Custom Liquid sections, A/B testing, speed & CVR improvements.</li>
+            <li>Lead interns; build custom platforms (ambassador/task/e-catalogue).</li>
+            <li>Daily AI tooling: Cursor, GitHub Copilot.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <span class="time">09/2023 – 12/2024</span>
+          <h4>IT & Networking — MFS (Tripoli, LB)</h4>
+          <ul>
+            <li>Manage network for 200+ users; systems install & maintenance.</li>
+            <li>Hardware/software troubleshooting and ops improvements.</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <span class="time">04/2023 – 08/2023</span>
+          <h4>Django Training Workshop — NEWWAYS</h4>
+          <ul>
+            <li>Built a clinic management system with a 10+ person team.</li>
+            <li>Learned Linux, Git/GitHub, and Dockerized deployments.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h4>Education</h4>
+      <p>CNAM (Conservatoire National des Arts et Métiers) — BSc Computer Science</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <footer class="contact" id="contact">
+    <h3>Contact</h3>
+    <ul>
+      <li><a href="mailto:chadiech.word@gmail.com"><i class='bx bx-envelope'></i> Send an email</a></li>
+      <li><a href="https://wa.me/+96181445964"><i class='bx bxl-whatsapp'></i> WhatsApp</a></li>
+      <li><i class='bx bx-phone'></i> +961 81 445 964</li>
+    </ul>
+    <p class="footnote">© <span id="year"></span> Chadi Ech. All rights reserved.</p>
+  </footer>
+
+  <!-- Tiny enhancement -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
