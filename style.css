@@ -44,7 +44,7 @@ section{ padding: 0 6%; }
    Header / Nav
 =========================== */
 .header{
-  width: 85%;
+  width: 100%;
   padding: 10px 10%;
   background: transparent;
   display: flex;
