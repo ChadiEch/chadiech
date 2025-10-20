@@ -19,7 +19,15 @@
   <!-- Header -->
   <header class="header" role="banner">
     <a href="#home" class="logo" aria-label="Go to home">Chadi Ech</a>
-    <nav class="navbar" role="navigation" aria-label="Primary">
+    
+    <!-- Hamburger Button -->
+    <div class="hamburger" id="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Primary">
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -264,6 +272,24 @@
   <!-- Tiny enhancement -->
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const navbar = document.getElementById('navbar');
+    
+    hamburger.addEventListener('click', () => {
+      navbar.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    
+    // Close menu when clicking on a link
+    const navLinks = document.querySelectorAll('.navbar a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navbar.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
   </script>
 </body>
 </html>
