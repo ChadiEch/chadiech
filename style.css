@@ -44,6 +44,18 @@ body::before {
   100% { background-position: 0% 50%; }
 }
 
+/* Ensure all sections have transparent backgrounds to show the animated background */
+.home,
+.about,
+.technologies,
+.services,
+.experience,
+.contact,
+footer,
+section {
+  background: transparent !important;
+}
+
 *,
 *::before,
 *::after{ box-sizing: border-box; }
