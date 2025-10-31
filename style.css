@@ -21,6 +21,9 @@
   height: 100%;
   z-index: -1;
   pointer-events: none;
+  /* Optimize for mobile performance */
+  transform: translateZ(0);
+  will-change: transform;
 }
 
 /* Animated Gradient Background */
@@ -33,9 +36,9 @@ body::before {
   height: 100%;
   background: linear-gradient(45deg, #031540, #06235e, #031540);
   background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  animation: gradientBG 20s ease infinite;
   z-index: -2;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 @keyframes gradientBG {
@@ -72,6 +75,9 @@ body{
   line-height: 1.5;
   position: relative;
   overflow-x: hidden;
+  /* Optimize for mobile performance */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img{ max-width: 100%; display:block; }
